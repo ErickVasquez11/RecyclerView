@@ -17,6 +17,10 @@
         android:id="@+id/tvSuperHeroName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
         tools:text="Hola"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageViewSuperHero"/>
@@ -25,6 +29,7 @@
         android:id="@+id/tvRealName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
         tools:text="Hola"
         app:layout_constraintTop_toBottomOf="@+id/tvSuperHeroName"
         app:layout_constraintStart_toEndOf="@+id/imageViewSuperHero"/>
@@ -33,6 +38,7 @@
         android:id="@+id/tvPublisher"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
         tools:text="Hola"
         app:layout_constraintTop_toBottomOf="@+id/tvRealName"
         app:layout_constraintStart_toEndOf="@+id/imageViewSuperHero"/>
